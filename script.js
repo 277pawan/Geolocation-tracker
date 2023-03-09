@@ -79,6 +79,7 @@ class App
         forms.addEventListener('submit',this._newworkout.bind(this));
     
         inputType.addEventListener('change',this._toogleElevationField.bind(this));
+          resetbutton.addEventListener('click',this.reset.bind(this));
     }
 
     _getposition() {
